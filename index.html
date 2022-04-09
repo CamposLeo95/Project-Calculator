@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +9,71 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
 
+<body>
+    <!-- -----------------container----------------- -->
+    <div class="container">
+
+        <div class="calculator">
+
+            <!-- -------------resultado e reset-------------- -->
+                <input type="text" name="resultado" id="result" disabled>
+            
+            <!-- ----------botões inferiores 0 ao 9---------- -->
+
+            <div class="btninf">
+
+                <div id="btn1">
+                    <input type="button" name="mrc" value="mrc" class="botao btncor">
+                    <input type="button" name="m-" value="m-" class="botao btncor">
+                    <input type="button" name="m+" value="m+" class="botao btncor">
+
+
+                    <input type="button" name="7" value="7" class="botao">
+                    <input type="button" name="8" value="8" class="botao">
+                    <input type="button" name="9" value="9" class="botao">
+
+
+                    <input type="button" name="4" value="4" class="botao">
+                    <input type="button" name="5" value="5" class="botao">
+                    <input type="button" name="6" value="6" class="botao">
+
+
+                    <input type="button" name="1" value="1" class="botao">
+                    <input type="button" name="2" value="2" class="botao">
+                    <input type="button" name="3" value="3" class="botao">
+
+
+                    <input type="button" name="0" value="0" class="botao">
+                    <input type="button" name="00" value="00" class="botao">
+                    <input type="button" name="." value="." class="botao">
+                </div>
+
+                <!-- -----------botoes inferiores % X +-------- -->
+
+                <div id="btn2">
+                    <input type="button" name="ce" value="ce" class="botao btncor">
+                    <input type="button" name="%" value="%" class="botao btncor">
+                    <input type="button" name="X" value="X" class="botao btncor">
+                    <input type="button" name="+" value="+" class="botao btncor" id="soma">
+
+                </div>
+
+                <!-- -----------botoes inferiores R / - = ---------->
+
+                <div id="btn3">
+                    <input type="button" name="c" value="c" class="botao" id="btnreset">
+                    <input type="button" name="raiz" value="√" class="botao btncor">
+                    <input type="button" name="/" value="÷" class="botao btncor">
+                    <input type="button" name="-" value="-" class="botao btncor">
+                    <input type="button" name="=" value="=" class="botao btncor">
+                </div>
+                <!-- -------------- fim botoes ----------------- -->
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>

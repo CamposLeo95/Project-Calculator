@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: rgb(43, 42, 42);
+}
+
+.container{
+    margin: auto;
+    display: flex;
+    background: rgb(43, 42, 42);
+    width: 500px;
+    height: 400px;
+    padding: 15px;
+    justify-content:flex-end; 
+    align-items: center;
+    margin-top: 25%;
+}
+
+.calculator{
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    width: 80%;
+    height: 90%;
+    background: darkgray;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.botao{
+    width: 35px;
+    height: 35px;
+    border-radius: 12px;
+    margin: 4px;
+    background: rgba(112, 112, 112, 0.74);
+    box-shadow: 1px 1px 1px black;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.btncor{
+    background: rgba(43, 42, 42, 0.74);
+}
+
+#btnreset{
+    background: rgb(0, 189, 126);
+}
+
+#result{
+    background: whitesmoke;
+    border-radius: 5px;
+    border: none;
+    width: 78%;
+    padding: 10px;
+    /* margin: px; */
+}
+
+.btninf{
+    width: 80%;
+    display: flex;
+    background: rgb(143, 143, 143);
+    align-self: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 8px;
+
+
+}
+
+#btn1{
+    width: 50%;
+    display: flex;
+    /* background: green; */
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+#btn2{
+    width: 20%;
+    display: flex;
+    /* background: blue; */
+    flex-wrap:wrap ;
+    justify-content: center;
+}
+#btn3{
+    width: 20%;
+    display: flex;
+    /* background: yellow; */
+    flex-wrap:wrap ;
+    justify-content: center;
+}
+
+#soma{
+    height: 70px;
+}
+
