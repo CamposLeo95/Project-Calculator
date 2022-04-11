@@ -1,8 +1,18 @@
+var resultado = document.querySelector("#result")
 
-function inserir(){
-    let valor = document.getElementsByClassName("botao")
-    let text = valor.value
 
-    console.log(text)
+function inserir(num){
+
+    resultado.innerHTML += num;
+
+}
+
+function reset(){
+    resultado.innerHTML = " "
+}
+
+function calc(){
+    
+   let algo = resultado.innerHTML = eval(resultado)
 
 }

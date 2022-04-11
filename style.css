@@ -56,11 +56,16 @@ body{
 }
 
 #result{
-    background: whitesmoke;
+    background: rgb(43, 42, 42);
     border-radius: 5px;
     border: none;
     width: 78%;
-    padding: 10px;
+    height: 40px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: white;
+    padding: 3px;
     /* margin: px; */
 }
 
@@ -72,8 +77,6 @@ body{
     justify-content: center;
     padding: 8px;
     border-radius: 8px;
-
-
 }
 
 #btn1{

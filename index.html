@@ -17,7 +17,7 @@
         <div class="calculator">
 
             <!-- -------------resultado e reset-------------- -->
-                <input type="text" name="resultado" id="result" disabled>
+                <div type="text" name="resultado" id="result"></div>
             
             <!-- ----------botões inferiores 0 ao 9---------- -->
 
@@ -29,24 +29,24 @@
                     <input type="button" name="m+" value="m+" class="botao btncor">
 
 
-                    <input type="button" name="7" value="7" class="botao btncor" onclick="inserir()">
-                    <input type="button" name="8" value="8" class="botao btncor" onclick="inserir()">
-                    <input type="button" name="9" value="9" class="botao btncor" onclick="inserir()">
+                    <input type="button" name="7" value="7" class="botao btncor" onclick="inserir('7')">
+                    <input type="button" name="8" value="8" class="botao btncor" onclick="inserir('8')">
+                    <input type="button" name="9" value="9" class="botao btncor" onclick="inserir('9')">
 
 
-                    <input type="button" name="4" value="4" class="botao btncor" onclick="inserir()">
-                    <input type="button" name="5" value="5" class="botao btncor" onclick="inserir()">
-                    <input type="button" name="6" value="6" class="botao btncor" onclick="inserir()">
+                    <input type="button" name="4" value="4" class="botao btncor" onclick="inserir('4')">
+                    <input type="button" name="5" value="5" class="botao btncor" onclick="inserir('5')">
+                    <input type="button" name="6" value="6" class="botao btncor" onclick="inserir('6')">
 
 
-                    <input type="button" name="1" value="1" class="botao btncor" onclick="inserir()">
-                    <input type="button" name="2" value="2" class="botao btncor btnum"onclick="inserir()">
-                    <input type="button" name="3" value="3" class="botao btncor" onclick="inserir()">
+                    <input type="button" name="1" value="1" class="botao btncor" onclick="inserir('1')">
+                    <input type="button" name="2" value="2" class="botao btncor btnum"onclick="inserir('2')">
+                    <input type="button" name="3" value="3" class="botao btncor" onclick="inserir('3')">
 
 
-                    <input type="button" name="0" value="0" class="botao btncor" onclick="inserir()">
-                    <input type="button" name="00" value="00" class="botao btncor" onclick="inserir()">
-                    <input type="button" name="." value="." class="botao btncor" onclick="inserir()">
+                    <input type="button" name="0" value="0" class="botao btncor" onclick="inserir('0')">
+                    <input type="button" name="00" value="00" class="botao btncor" onclick="inserir('00')">
+                    <input type="button" name="." value="." class="botao btncor" onclick="inserir('.')">
                 </div>
 
                 <!-- -----------botoes inferiores % X +-------- -->
@@ -54,11 +54,11 @@
                 <div id="btn2">
                     <input type="button" name="ce" value="ce" class="botao btncor">
 
-                    <input type="button" name="%" value="%" class="botao btncor" onclick="portentagem()">
+                    <input type="button" name="%" value="%" class="botao btncor" onclick="inserir()">
 
-                    <input type="button" name="X" value="X" class="botao btncor" onclick="multiplicar()">
+                    <input type="button" name="X" value="X" class="botao btncor" onclick="inserir('*')">
 
-                    <input type="button" name="+" value="+" class="botao btncor" id="soma" onclick="somar()">
+                    <input type="button" name="+" value="+" class="botao btncor" id="soma" onclick="inserir('+')">
 
                 </div>
 
@@ -70,12 +70,12 @@
 
                     <input type="button" name="raiz" value="√" class="botao btncor" onclick="raiz()">
 
-                    <input type="button" name="/" value="÷" class="botao btncor" onclick="dividir()">
+                    <input type="button" name="/" value="÷" class="botao btncor" onclick="inserir()">
 
-                    <input type="button" name="-" value="-" class="botao btncor" onclick="subtrair()">
+                    <input type="button" name="-" value="-" class="botao btncor" onclick="inserir()">
 
                     <input type="button" name="=" value="=" class="botao btncor" onclick="calc()">
-                </div>
+                </input>
                 <!-- -------------- fim botoes ----------------- -->
             </div>
         </div>
