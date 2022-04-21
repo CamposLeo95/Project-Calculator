@@ -13,6 +13,6 @@ function reset(){
 
 function calc(){
     
-   let algo = resultado.innerHTML = eval(resultado)
+ document.getElementById("result").innerHTML = eval(resultado.innerHTML)
 
 }

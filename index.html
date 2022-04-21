@@ -11,6 +11,7 @@
 </head>
 
 <body>
+        <div id="container">
     <!-- -----------------container----------------- -->
     <div class="container">
 
@@ -24,11 +25,7 @@
             <div class="btninf">
 
                 <div id="btn1">
-                    <input type="button" name="mrc" value="mrc" class="botao btncor">
-                    <input type="button" name="m-" value="m-" class="botao btncor">
-                    <input type="button" name="m+" value="m+" class="botao btncor">
-
-
+              
                     <input type="button" name="7" value="7" class="botao btncor" onclick="inserir('7')">
                     <input type="button" name="8" value="8" class="botao btncor" onclick="inserir('8')">
                     <input type="button" name="9" value="9" class="botao btncor" onclick="inserir('9')">
@@ -52,34 +49,31 @@
                 <!-- -----------botoes inferiores % X +-------- -->
 
                 <div id="btn2">
-                    <input type="button" name="ce" value="ce" class="botao btncor">
-
-                    <input type="button" name="%" value="%" class="botao btncor" onclick="inserir()">
 
                     <input type="button" name="X" value="X" class="botao btncor" onclick="inserir('*')">
 
-                    <input type="button" name="+" value="+" class="botao btncor" id="soma" onclick="inserir('+')">
+                    <input type="button" name="/" value="÷" class="botao btncor" onclick="inserir('/')">
 
+                    <input type="button" name="+" value="+" class="botao btncor" onclick="inserir('+')">
+
+                    
+                    <input type="button" name="-" value="-" class="botao btncor" onclick="inserir('-')">
                 </div>
 
                 <!-- -----------botoes inferiores R / - = ---------->
 
                 <div id="btn3">
 
-                    <input type="button" name="c" value="c" class="botao" id="btnreset" onclick="reset()">
+                    <input type="button" name="c" value="c" class="botao soma" id="btnreset" onclick="reset()">
 
-                    <input type="button" name="raiz" value="√" class="botao btncor" onclick="raiz()">
-
-                    <input type="button" name="/" value="÷" class="botao btncor" onclick="inserir()">
-
-                    <input type="button" name="-" value="-" class="botao btncor" onclick="inserir()">
-
-                    <input type="button" name="=" value="=" class="botao btncor" onclick="calc()">
+                    <input type="button" name="=" value="=" class="botao btncor soma" 
+                    onclick="calc()" >
                 </input>
                 <!-- -------------- fim botoes ----------------- -->
             </div>
         </div>
     </div>
+        </div>
 
     <script src="script.js"></script>
 </body>
